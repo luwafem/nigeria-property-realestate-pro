@@ -129,7 +129,7 @@ const PropertyCard = ({ property }) => {
             )}
           </div>
           
-          {/* Estate Development Features */}
+          {/* Estate Development Features  */}
           {property.type === 'estate' && property.estateFeatures && (
             <div className="mb-4">
               <div className="flex flex-wrap gap-2">
